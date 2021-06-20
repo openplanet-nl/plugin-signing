@@ -7,11 +7,13 @@ assignees: codecat
 
 ---
 
-**Plugin description:**
+## Plugin description
 [...]
 
-**Did you provide a `perms` meta value or a `#perms` preprocessor option?**
+## Did you provide a `perms` meta value or a `#perms` preprocessor option?
 [yes/no]
 
-**Did you use `Permissions.as`?**
+## Did you use `Permissions.as`?
 [yes/no]
+
+## Attach your plugin
