@@ -7,8 +7,10 @@ assignees: codecat
 
 ---
 
-**Where can we find the plugin?** (eg. link to the file on Openplanet.nl)
+## Where can we find the plugin?
 [...]
 
-**Has your plugin been previously signed?**
+## Has your plugin been signed previously?
 [yes/no]
+
+## Attach your plugin
