@@ -19,7 +19,8 @@ body:
     label: Description
     description: The Description of your plugin.
     placeholder: |
-      'Another Medals Plugin, because we didnt have enough of them already [![Kappa](https://static-cdn.jtvnw.net/emoticons/v2/25/default/dark/1.0)](https://openplanet.nl/files?search=Medal)'
+      Another Medals Plugin, because we didnt have enough of them already!
+    #[![Kappa](https://cdn.frankerfacez.com/emote/480788/1)](https://openplanet.nl/files?search=Medal)
   validations:
     required: false
 
