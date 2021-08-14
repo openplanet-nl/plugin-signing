@@ -1,0 +1,43 @@
+name: Sign Request
+description: File Sign Request
+title: "[SIGN🔐] <Plugin-Name> <Plugin-version>"
+assignees: codecat
+
+body:
+- type: textarea
+  attributes:
+    label: Name
+    description: The Name of your plugin.
+    placeholder: ex: JAMP (Just Another Medals Plugin)
+  validations:
+    required: true
+
+- type: Markdown
+  attributes:
+    label: Description
+    description: The Description of your plugin.
+  validations:
+    required: false
+
+- type: checkboxes
+  id: Signed
+  attributes:
+    label: Which operating systems have you used?
+    description: You may select more than one.
+    options:
+      - label: yes
+
+- type: checkboxes
+  id: Signed
+  attributes:
+    label: Did you Add minimum required permisions?
+    description: Did you provide a `perms` meta value or a `#perms` preprocessor option?
+    options:
+      - label: yes
+
+- type: textarea
+  attributes:
+    label: Your Plugin
+    description: Attach your plugin here.
+  validations:
+    required: true
