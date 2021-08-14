@@ -21,34 +21,44 @@ body:
   validations:
     required: false
 
-- type: checkboxes
+- type: dropdown
   id: Signed
   attributes:
     label: Has This Plugin beed signed before?
     description: Have you successfuly submited this plugin for signing?
     options:
-      - label: 'yes'
+      - 'Yes'
+      - 'No'
+    validation:
+      required: true
 
-- type: checkboxes
+- type: dropdown
   id: Forced-Perms
   attributes:
     label: Did you Add minimum required permisions?
     description: Did you provide a `perms` meta value or a `#perms` preprocessor option?
     options:
-      - label: 'yes'
+      - 'Yes'
+      - 'No'
+    validation:
+      required: true
 
-- type: checkboxes
+- type: dropdown
   id: Dynamic-Perms
   attributes:
     label: Did you use `Permissions.as`?
     description: Did you dynamicaly detemine whether the user has permisions for somethin using `Permissions.as`?
     options:
-      - label: 'yes'
+      - 'Yes'
+      - 'No'
+    validation:
+      required: true
 
 - type: textarea
   id: plugin
   attributes:
     label: Your Plugin
     description: Attach your plugin here.
+    placehoder: "Drag 'n Drop your plugin here"
   validations:
     required: true
