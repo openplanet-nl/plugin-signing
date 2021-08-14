@@ -13,7 +13,7 @@ body:
   validations:
     required: true
 
-- type: texarea
+- type: textarea
   id: Description
   attributes:
     label: Description
@@ -27,7 +27,7 @@ body:
     label: Has This Plugin beed signed before?
     description: Have you successfuly submited this plugin for signing?
     options:
-      - label: yes
+      - label: 'yes'
 
 - type: checkboxes
   id: Forced-Perms
@@ -35,7 +35,7 @@ body:
     label: Did you Add minimum required permisions?
     description: Did you provide a `perms` meta value or a `#perms` preprocessor option?
     options:
-      - label: yes
+      - label: 'yes'
 
 - type: checkboxes
   id: Dynamic-Perms
@@ -43,7 +43,7 @@ body:
     label: Did you use `Permissions.as`?
     description: Did you dynamicaly detemine whether the user has permisions for somethin using `Permissions.as`?
     options:
-      - label: yes
+      - label: 'yes'
 
 - type: textarea
   id: plugin
