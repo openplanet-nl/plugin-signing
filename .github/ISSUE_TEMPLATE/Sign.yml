@@ -1,7 +1,7 @@
 name: Sign Request
 description: File Sign Request
 title: '[SIGN🔐] <Plugin-Name> <Plugin-version>'
-#assignees: codecat
+assignees: codecat
 
 body:
 - type: input
