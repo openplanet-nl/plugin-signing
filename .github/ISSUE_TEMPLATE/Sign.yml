@@ -1,18 +1,20 @@
 name: Sign Request
 description: File Sign Request
-title: "[SIGN🔐] <Plugin-Name> <Plugin-version>"
-assignees: codecat
+title: '[SIGN🔐] <Plugin-Name> <Plugin-version>'
+#assignees: codecat
 
 body:
-- type: textarea
+- type: input
+  id: Name
   attributes:
     label: Name
     description: The Name of your plugin.
-    placeholder: ex: JAMP (Just Another Medals Plugin)
+    placeholder: 'ex: JAMP (Just Another Medals Plugin)'
   validations:
     required: true
 
-- type: Markdown
+- type: texarea
+  id: Description
   attributes:
     label: Description
     description: The Description of your plugin.
@@ -22,20 +24,29 @@ body:
 - type: checkboxes
   id: Signed
   attributes:
-    label: Which operating systems have you used?
-    description: You may select more than one.
+    label: Has This Plugin beed signed before?
+    description: Have you successfuly submited this plugin for signing?
     options:
       - label: yes
 
 - type: checkboxes
-  id: Signed
+  id: Forced-Perms
   attributes:
     label: Did you Add minimum required permisions?
     description: Did you provide a `perms` meta value or a `#perms` preprocessor option?
     options:
       - label: yes
 
+- type: checkboxes
+  id: Dynamic-Perms
+  attributes:
+    label: Did you use `Permissions.as`?
+    description: Did you dynamicaly detemine whether the user has permisions for somethin using `Permissions.as`?
+    options:
+      - label: yes
+
 - type: textarea
+  id: plugin
   attributes:
     label: Your Plugin
     description: Attach your plugin here.
