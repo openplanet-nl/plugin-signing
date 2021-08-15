@@ -1,6 +1,5 @@
 name: Sign Request
-description: File Sign Request
-title: '[SIGN🔐] <Plugin-Name> <Plugin-version>'
+description: File a Sign Request for a plugin
 assignees: codecat
 
 body:
