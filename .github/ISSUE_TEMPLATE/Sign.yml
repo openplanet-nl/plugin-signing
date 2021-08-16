@@ -18,7 +18,7 @@ body:
     label: Description
     description: The Description of your plugin.
     placeholder: |
-      Another Medals Plugin, because we didnt have enough of them already!
+      Another Medals Plugin, because we didn't have enough of them already!
     #[![Kappa](https://cdn.frankerfacez.com/emote/480788/1)](https://openplanet.nl/files?search=Medal)
   validations:
     required: false
@@ -27,7 +27,7 @@ body:
   id: Signed
   attributes:
     label: Has This Plugin beed signed before?
-    description: Have you successfuly submited this plugin for signing?
+    description: Have you successfuly submitted this plugin for signing?
     options:
       - 'Yes'
       - 'No'
@@ -37,7 +37,7 @@ body:
 - type: dropdown
   id: Forced-Perms
   attributes:
-    label: Did you Add minimum required permisions?
+    label: Did you add minimum required permisions?
     description: Did you provide a `perms` meta value or a `#perms` preprocessor option?
     options:
       - 'Yes'
@@ -49,7 +49,7 @@ body:
   id: Dynamic-Perms
   attributes:
     label: Did you use `Permissions.as`?
-    description: Did you dynamicaly detemine whether the user has permisions for somethin using `Permissions.as`?
+    description: Did you dynamically detemine whether the user has permissions for something using `Permissions.as`?
     options:
       - 'Yes'
       - 'No'
