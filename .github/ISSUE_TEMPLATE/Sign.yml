@@ -26,7 +26,7 @@ body:
 - type: dropdown
   id: Signed
   attributes:
-    label: Has This Plugin beed signed before?
+    label: Has This Plugin been signed before?
     description: Have you successfuly submitted this plugin for signing?
     options:
       - 'Yes'
