@@ -1,4 +1,13 @@
-# Openplanet plugin signing
+# Deprecated repository
+This repository has been deprecated in favor of the new website's plugin review process.
+
+To get your plugin signed, please log in and upload it [on the website](https://openplanet.dev/).
+
+For archival reasons, the old readme remains available below.
+
+---
+
+# Old readme
 This Github repository is for requesting Openplanet plugin signatures. Plugin signatures can be required in Trackmania, if you want players to use your plugin on Starter or Standard subscriptions. [More info can be found here.](https://openplanet.nl/next/club)
 
 # How do I get my plugin signed?
